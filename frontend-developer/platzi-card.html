@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      width: 274px;
+      height: 320px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #213363;
+      position: relative;
+    }
+    .card img{
+      width: 100%;
+    }
+    .card p{
+      font-family: 'Calibri';
+      color: aliceblue;
+      padding: 0 0 0 20px;
+    }
+    .bottom-card{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 60px 300px;
+    }
+    figure {
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      bottom: 0px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="card">
+      <img src="https://static.platzi.com/cdn-cgi/image/width=1024,quality=85,format=auto/https://thumbs.cdn.mdstrm.com/thumbs/512e13acaca1ebcd2f000279/thumb_62b3a4a798a7190830880a67_62b3a4a798a7190830880a73_87s.jpg" alt="Thumbnail">
+      <div class="card-details">
+        <p>¿Ya tomaste el Curso Básico de JavaScript?</p>
+      </div>
+      <div class="bottom-card">
+        <figure>
+          <img src="https://static.platzi.com/media/achievements/practico-javascript_badge-fb533fa5-73c8-4f75-9d81-0294d9013ab5.png" alt="Curso JS">
+        </figure>
+        <p>Curso práctivo de Java Script</p>
+      </div> 
+    </div>
+  </section>
+
+</body>
+</html>
